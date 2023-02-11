@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*::selection {
+    background-color: antiquewhite;
+    color:cadetblue
+}
+.fondo{
+    background-image: url(../img/Fondo.jpg);
+    height: 90vh;
+}
+
+.card:hover{
+    border: 5px solid rgb(97, 97, 97) ;
+}
+
+.pie p{
+    text-align: center;
+    padding-top: 40px;
+}
+.iconos{
+    text-align: center;
+}
+
+.galeria img{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+}
+.galeria img:hover{
+    border: 5px solid rgb(97, 97, 97);
+}
+
+.body{
+    color: #fff;
+    padding: 0 1.5em;
+}
+
+.content{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+.logo{
+    text-align: center;
+    font-size: 3em;
+}
+.contenedor-contacto{
+    box-shadow: 0 0 20px 0 
+}
+.contenedor-contacto{
+    padding: 1em;
+}
+
+.contenedor-formulario form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.contenedor-formulario form .block{
+    grid-column: 1 / 3;
+}
+.contenedor-formulario p{
+    margin: 0;
+    padding: 1em;
+}
+
+
+.contenedor-formulario form button,
+.contenedor-formulario form input,
+.contenedor-formulario form textarea{
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background-color:lightgray;
+}
+.contenedor-formulario form button{
+    background-color:darkslategray;
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+.contenedor-formulario button:hover{
+    border: 3px;
+}
+
+.contenedor-info h4,
+.contenedor-info ul,
+.contenedor-info p{
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+.contenedor-info ul{
+    list-style: none;
+    padding: 0;
+}
+
+@media (min-width: 100%) {
+    body{
+        padding: 0 4rem;
+    }
+    .contenedor-contacto{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .contenedor-contacto > *{
+        padding: 2em;
+    }
+
+}
+.contenedor{
+    max-width: 100%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.seccion{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.centrar-texto{
+    text-align: center;
+}
+
+.iconos-nosotros{
+    display: flex;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-top: 5em;
+}
+.imagenes-nosotros{
+    flex-basis: calc(33.3% - 1 rem);
+    text-align: center;
+}
+.imagenes-nosotros img{
+    height: 100px;
+    padding-bottom: 10px;
+}
+
+.ubicacion{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}

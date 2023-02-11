@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-moz-selection {
+  background-color: antiquewhite;
+  color: cadetblue;
+}
+*::selection {
+  background-color: antiquewhite;
+  color: cadetblue;
+}
+
+footer p {
+  text-align: center;
+  padding-top: 40px;
+}
+footer p iconos {
+  text-align: center;
+}
+
+.galeria img {
+  width: 100%;
+  height: 300px;
+  padding: 20px;
+}
+.galeria img.img:hover {
+  border: 5px solid rgb(97, 97, 97);
+}
+
+.fondo {
+  background-image: url(../img/Fondo.jpg);
+  height: 90vh;
+}
+
+.card:hover {
+  border: 5px solid rgb(97, 97, 97);
+}/*# sourceMappingURL=style.css.map */
